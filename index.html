@@ -7,10 +7,8 @@
         <a-scene embedded arjs>
         <a-marker preset="hiro">
             <a-entity
-            position="0 0 0"
-            rotation="0 0 0"
-            scale="0.05 0.05 0.05"
-            gltf-model="https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+            geometry="primitive: box" material="color: red"
+            light="type: point; intensity: 2.0"
             ></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
